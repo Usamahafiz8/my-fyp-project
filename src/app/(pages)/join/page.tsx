@@ -126,7 +126,7 @@ function SignUp() {
               <p className="text-2xl xl:text-3xl font-extrabold">
                 Join{" "}
                 <Link href="/" className="text-indigo-500">
-                  Bittwork
+                  Lancer Planet
                 </Link>
                 .
               </p>
@@ -135,7 +135,7 @@ function SignUp() {
                   <p className="w-[50%] mx-auto text-center">
                     We provides a new way to connect your{" "}
                     <span className="text-indigo-600">crypto wallet </span>
-                    with Bittwork.
+                    with Lancer Planet.
                   </p>
                   <button
                     onClick={handleLogin}

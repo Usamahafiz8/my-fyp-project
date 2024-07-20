@@ -14,7 +14,7 @@ export default function HeroSection({}: Props) {
       <p className="text-white w-[90%] md:w-[80%] lg:w-[70%] text-lg">
         Build a team of pre-vetted and highly skilled remote software developers
         that best match your timezone and work model. Save your hiring time and
-        money with Bittwork.
+        money with Lancer Planet.
       </p>
       <div>
         <Link href="/join" className="secondaryButton my-6">
