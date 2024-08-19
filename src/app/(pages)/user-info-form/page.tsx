@@ -35,7 +35,7 @@ export default function Page({}: Props) {
             Personal Information
           </h2>
           <p className="mt-1   leading-6 text-gray-600">
-            This information will be displayed to the users on Bittwork
+            This information will be displayed to the users on Lancer Planet
           </p>
           {failed ? (
             <p className="mt-1 text-red-700  leading-6">
@@ -169,7 +169,7 @@ export default function Page({}: Props) {
             </div>
             <div className="text-sm leading-6">
               <p className="text-gray-500">
-                I agree to the terms and conditions of Bittwork
+                I agree to the terms and conditions of Lancer Planet
               </p>
             </div>
           </div>

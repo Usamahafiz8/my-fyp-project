@@ -116,7 +116,7 @@ export default function ProposalForm({}: Props) {
             </div>
             <div className="text-sm leading-6">
               <p className="text-gray-500">
-                I agree to the terms and conditions of Bittwork
+                I agree to the terms and conditions of Lancer Planet
               </p>
             </div>
           </div>

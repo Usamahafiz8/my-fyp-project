@@ -74,7 +74,7 @@ export default function DashboardSkelton({}: Props) {
             </button>
             <a href="/" className="flex items-center justify-between mr-4">
               <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-                Bittwork
+                Lancer Planet
               </span>
             </a>
             <form action="#" method="GET" className="hidden md:block md:pl-2">

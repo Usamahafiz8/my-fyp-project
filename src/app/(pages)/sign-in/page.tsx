@@ -17,7 +17,7 @@ function Login() {
               <p className="text-2xl xl:text-3xl font-extrabold">
                 Sign in to{" "}
                 <Link href="/" className="text-indigo-500">
-                  Bittwork
+                  Lancer Planet
                 </Link>
               </p>
               <div className="w-full flex-1 mt-8">

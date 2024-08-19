@@ -8,6 +8,7 @@ export default function Header({}: Props) {
     <header className="hidden lg:flex items-center justify-between px-3 md:px-6 lg:px-12 py-2 md:py-4 lg:py-8 text-white bg-herobg">
       
         <Link href="https://lancerplanet.com/">Lancer Planet</Link>
+      <div>Lancer Planet</div>
       <nav className="flex items-center space-x-6">
         <Link href="/jobs">Find jobs</Link>
         <Link href="https://lancerplanet.com/">Blog</Link>

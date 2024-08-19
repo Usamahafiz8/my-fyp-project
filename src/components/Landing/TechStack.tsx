@@ -12,7 +12,7 @@ export default function TechStack({}: Props) {
           Some of the Tech Stacks Experts We have
         </h3>
         <p className="w-[85%] lg:w-[40%] text-white">
-          At Bittwork, we have remote software developers for a wide range of
+          At Lancer Planet, we have remote software developers for a wide range of
           tech stacks. We can surely find the right fit for you!
         </p>
       </div>
