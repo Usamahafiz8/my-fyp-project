@@ -42,9 +42,15 @@ function SignUp() {
 
   async function handleLogin() {
     setLoading(true);
-    const magic = new Magic("pk_live_181BACDE5DAE70FB", {
-      network: "goerli", // Ethereum testnet
-    });
+    const magic = new Magic(
+      process.env.NEXT_PUBLIC_MAGIC_PUBLISHABLE_KEY ??
+        "pk_live_7B848874FC801890",
+      {
+    // @ts-ignore
+        network: process.env.NEXT_PUBLIC_ETH_NETWORK ?? "sepolia", // Ethereum testnet
+      }
+    );
+    
     const provider = await magic.wallet.getProvider();
 
     await magic.wallet.connectWithUI();

@@ -21,7 +21,7 @@ export async function GET(req: NextRequest) {
 export async function POST(req: NextRequest) {
     const { title, description } = await req.json();
     const prompt = {
-        model: "gpt-3.5-turbo-0301",
+        model: process.env.NEXT_PUBLIC_BASE_APP_CHAT_MODEL ?? "gpt-3.5-turbo-0301",
         messages: [{ "role": "system", "content": "You are a project validator. Understand the requirements by user and give your answer in the form of JSON with valid keys." },
         {
             "role": "user", "content": `
@@ -48,7 +48,8 @@ export async function POST(req: NextRequest) {
 
     const res = await openai.createChatCompletion(
         {
-            model: "gpt-3.5-turbo-0301", messages: [{ "role": "system", "content": "You are a project validator. Understand the requirements by user and give your answer in the form of JSON with valid keys." },
+            model: process.env.NEXT_PUBLIC_BASE_APP_CHAT_MODEL ?? "gpt-3.5-turbo-0301",
+             messages: [{ "role": "system", "content": "You are a project validator. Understand the requirements by user and give your answer in the form of JSON with valid keys." },
             {
                 "role": "user", "content": `
         -Your task is to validate a project posted on a freelance platform.
