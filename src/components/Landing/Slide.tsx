@@ -15,7 +15,7 @@ export default function Slide({}: Props) {
           className="rounded-full w-[200px] h-[200px] object-cover"
         />
       </div>
-      <h2 className="text-lg text-black ">Awais Yusaf</h2>
+      <h2 className="text-lg text-black ">Muhammad Osama Anwar</h2>
       <p className="text-sm text-black ">Nextjs Developer • Pakistan</p>
     </div>
   );
